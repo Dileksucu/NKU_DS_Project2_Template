@@ -46,12 +46,7 @@ public class LinkedList {
     }
 
     public void Print(){
-        Node n = head;
-        while (n != null){
-            System.out.print("| " + n.value + " |" + " --> ");
-            n = n.next;
-        }
-        System.out.println("|NULL|");
+        
     }
 
     // Bu metod bagli listenin elemanlarini sondan basa dogru sirali okarak ekrana yazdirir.
